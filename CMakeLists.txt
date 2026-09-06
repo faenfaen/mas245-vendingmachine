@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(VendingMachine LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -20,7 +20,7 @@ target_sources(VendingMachine
 
 target_include_directories(VendingMachine
     PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}   # lets you do: #include <soda.h>
+        ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
 set_target_properties(VendingMachine PROPERTIES

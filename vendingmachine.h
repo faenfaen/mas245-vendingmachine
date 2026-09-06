@@ -4,7 +4,7 @@
 #ifndef VENDINGMACHINE_H // Use file name with CAPITALIZED letters and underscore _ for dots.
 #define VENDINGMACHINE_H
 
-#include <soda.h>
+#include "soda.h"
 #include <vector>
 
 // Declare class VendingMachine
